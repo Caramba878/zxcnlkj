@@ -21,6 +21,7 @@ catch (PDOException $e) {
 }
 
 
-
-
+$login = $_SESSION['login'];
+$password = $_SESSION['password'];
+$id_user = $_SESSION['id'];
 ?>
