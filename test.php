@@ -107,7 +107,7 @@
                 
                 <?php
                 
-                 if (isset($_SESSION['submit']))
+                 if (isset($_POST['submit']))
                  {
                          $a = $_POST['age'];
                          $b = $_POST['MaritalStatus'];
