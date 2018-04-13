@@ -101,13 +101,13 @@
                
                         <div style="text-align: center">
                                 </form>
-            <input class="btn btn-success btn-lg" type="submit" value="Получить результат">
+            <input class="btn btn-success btn-lg" type="submit" name = "abc" value="Получить результат">
             </div>
                 
                 
                 <?php
                 
-                 if (isset($_POST['submit']))
+                 if (isset($_POST['abc']))
                  {
                          $a = $_POST['age'];
                          $b = $_POST['MaritalStatus'];
